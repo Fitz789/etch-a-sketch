@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+button {
+    border: solid;
+    border-width: 4px;
+    border-color: black;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+}
+
+#grid {
+    display: flex;
+    height: 960px;
+    width: 960px;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: auto;
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.row {
+    border: 1px solid;
+    border-color: black;
+    align-items: stretch;
+    flex: auto;
+}
+
